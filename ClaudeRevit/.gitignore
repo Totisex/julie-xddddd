@@ -1,0 +1,18 @@
+# Modelos Revit: NUNCA versionar (pesados y confidenciales)
+*.rvt
+*.rfa
+*.rte
+*.rft
+*.0???.rvt
+*.0???.rfa
+
+# Salidas locales de los diagnosticos y reportes (contienen datos del proyecto)
+reports/*
+!reports/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Configuracion local con secretos (token del puente, API keys)
+config/*.local.json
+config/.env
+*.env
